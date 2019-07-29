@@ -1,0 +1,693 @@
+@charset "UTF-8";
+.wrap {
+  width: 100%;
+  height: auto;
+  position: relative;
+  max-width: 10rem;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 1.30667rem;
+}
+
+a:hover {
+  color: #f05630;
+}
+
+input[type="text"],
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+select::-webkit-input-placeholder {
+  color: #999;
+  font-size: inherit;
+}
+
+input[type="text"]:-moz-placeholder,
+select:-moz-placeholder {
+  color: #999;
+  font-size: inherit;
+}
+
+input[type="text"]::-moz-placeholder,
+select::-moz-placeholder {
+  color: #999;
+  font-size: inherit;
+}
+
+input[type="text"]:-ms-input-placeholder,
+select:-ms-input-placeholder {
+  color: #999;
+  font-size: inherit;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+input, textarea, select {
+  background-color: transparent;
+  font-family: '微软雅黑';
+}
+
+select {
+  border: none;
+  text-indent: 1em;
+}
+
+option {
+  text-indent: 1em;
+  font-family: '微软雅黑';
+}
+
+input[type="text"],
+select {
+  border: none;
+  text-indent: 1em;
+}
+
+input[type="submit"] {
+  border: none;
+}
+
+.experience ul li .t h3 a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.experience ul li .t h3 a, .experience ul li .t .btn, .courses .title .icon, .courses .content ul li .detail .nice .nice-item .icon, .courses .content ul li .detail .btn {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+.experience ul li .t .person {
+  zoom: 1;
+}
+
+.experience ul li .t .person:after {
+  clear: both;
+}
+
+.experience ul li .t .person:before, .experience ul li .t .person:after {
+  content: "";
+  display: table;
+}
+
+.header2 {
+  height: 1.17333rem;
+  position: relative;
+}
+
+.header2 a.logo {
+  display: block;
+  position: relative;
+  left: 0.36rem;
+  top: 0.24rem;
+  float: left;
+}
+
+.header2 a.logo img {
+  display: block;
+  height: 0.70667rem;
+}
+
+.header2.z h2 {
+  background: url("https://img.thea.cn/wx/wkwap/images/left.png") no-repeat left center;
+  background-size: 0.17333rem 0.26667rem;
+  padding-left: 0.33333rem;
+  margin-left: 0.56rem;
+}
+
+.header2 h2 {
+  float: left;
+  line-height: 1.17333rem;
+  font-size: 0.32rem;
+  color: #333;
+}
+
+.header2 span.menu {
+  display: block;
+  background: url("https://img.thea.cn/wx/wkwap/images/menu.png") no-repeat center;
+  background-size: 0.34667rem 0.25333rem;
+  float: right;
+  width: 0.66667rem;
+  height: 0.66667rem;
+  margin-right: 0.2rem;
+  margin-top: 0.25333rem;
+}
+
+.header2 span.menu.closemenu {
+  background: url("https://img.thea.cn/wx/wkwap/images/topxx.png") no-repeat center;
+  background-size: 0.26667rem 0.26667rem;
+}
+
+.header2 .hidemenu {
+  display: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: absolute;
+  right: 0.44rem;
+  top: 0.8rem;
+  padding: 0 0.2rem;
+  background: white;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.header2 .hidemenu a {
+  display: block;
+  line-height: 0.61333rem;
+  font-size: 0.24rem;
+  color: #333;
+  text-align: center;
+}
+
+.header2 .hidemenu a + a {
+  border-top: 1px solid #ddd;
+}
+
+.quesw {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0.33333rem 0.46667rem 0.4rem;
+}
+
+.quesw .quest {
+  position: relative;
+}
+
+.quesw .quest h1 {
+  max-width: 7.33333rem;
+  font-size: 0.61333rem;
+  color: #444444;
+  font-weight: bold;
+}
+
+.quesw .quest span {
+  float: right;
+  font-size: 0.24rem;
+  color: #999;
+  line-height: 0.53333rem;
+  width: 3.06667rem;
+  text-align: right;
+  overflow: hidden;
+}
+
+.quesw .quest span i {
+  font-style: normal;
+}
+
+.quesw .quest .lq-yue-right {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.quesw .quest .lq-yue-right a {
+  display: inline-block;
+  width: 1.6533333333rem;
+  height: 0.6266666667rem;
+  line-height: 0.6266666667rem;
+  background: #ff8061;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.32rem;
+}
+
+/* 注册体验 */
+.experience {
+  padding: 0.26667rem 0.4rem 0;
+}
+
+.experience ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.experience ul li a.col {
+  display: block;
+  width: 4.29333rem;
+}
+
+.experience ul li .t {
+  width: 4.48rem;
+}
+
+.experience ul li .t h3 a {
+  width: 100%;
+  color: #444444;
+  font-size: 0.37333rem;
+  line-height: 0.37333rem;
+  margin-bottom: 0.37333rem;
+}
+
+.experience ul li .t .person {
+  margin-bottom: 0.24rem;
+}
+
+.experience ul li .t .person .icon {
+  display: block;
+  width: 0.24rem;
+  height: 0.29333rem;
+  background: url("../images/icon_1.png") no-repeat;
+  background-size: 100% 100%;
+  margin-right: 0.26667rem;
+  float: left;
+}
+
+.experience ul li .t .person span {
+  color: #888888;
+  font-size: 0.29333rem;
+  line-height: 0.29333rem;
+  float: left;
+}
+
+.experience ul li .t .btn {
+  width: 3.44rem;
+  height: 0.69333rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f08a30), to(#f05630)), -webkit-gradient(linear, left top, left bottom, from(#f05630), to(#f05630));
+  background-image: linear-gradient(90deg, #f08a30 0%, #f05630 100%), linear-gradient(#f05630, #f05630);
+  -webkit-box-shadow: 0 3px 5px 0 rgba(240, 116, 48, 0.5);
+          box-shadow: 0 3px 5px 0 rgba(240, 116, 48, 0.5);
+  border-radius: 0.34667rem;
+  text-align: center;
+  line-height: 0.69333rem;
+  color: #ffffff;
+  font-size: 0.34667rem;
+  margin-top: 0.16rem;
+}
+
+.experience ul li:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+/* 热门课程 */
+.courses {
+  padding: 0 0.4rem 0.4rem;
+}
+
+.courses .title .icon {
+  width: 0.29333rem;
+  height: 0.32rem;
+  background: url("../images/icon_3.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.courses .title span {
+  color: #333333;
+  font-size: 0.34667rem;
+  line-height: 0.34667rem;
+}
+
+.courses .content {
+  margin-top: 0.4rem;
+}
+
+.courses .content ul {
+  display: grid;
+  grid-template-columns: repeat(2, 4.37333rem);
+  grid-column-gap: 0.4rem;
+  grid-row-gap: 0.4rem;
+}
+
+.courses .content ul li {
+  width: 4.37333rem;
+  height: 6.90667rem;
+  background-image: linear-gradient(135deg, #ff9334 0%, #f05630 100%), linear-gradient(#f05630, #f05630);
+  border-radius: 0.08rem;
+  padding: 0.26667rem 0.13333rem 0.13333rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.courses .content ul li .item-title {
+  font-size: 0.45333rem;
+  line-height: 0.45333rem;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.26667rem;
+}
+
+.courses .content ul li .detail {
+  width: 4.10667rem;
+  height: 5.78667rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 0.24rem 0px rgba(196, 68, 36, 0.48);
+          box-shadow: 0px 0px 0.24rem 0px rgba(196, 68, 36, 0.48);
+  border-radius: 0.08rem;
+  padding: 0.4rem 0.26667rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.courses .content ul li .detail .merit {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0.2rem;
+  grid-row-gap: 0.2rem;
+}
+
+.courses .content ul li .detail .merit .merit-item .icon {
+  float: left;
+  width: 0.21333rem;
+  height: 0.26667rem;
+  background: url("../images/icon_4.png") no-repeat;
+  background-size: 100% 100%;
+  margin-right: 0.13333rem;
+}
+
+.courses .content ul li .detail .merit .merit-item span {
+  font-size: 0.32rem;
+  line-height: 0.32rem;
+  color: #666666;
+  float: left;
+}
+
+.courses .content ul li .detail .nice {
+  margin-top: 0.26667rem;
+  margin-bottom: 0.26667rem;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 0.26667rem;
+  padding-bottom: 0.13333rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.courses .content ul li .detail .nice .nice-item {
+  margin-bottom: 0.13333rem;
+  padding-left: 0.61333rem;
+}
+
+.courses .content ul li .detail .nice .nice-item .icon {
+  width: 0.32rem;
+  height: 0.36rem;
+  background: url("../images/icon_5.png") no-repeat;
+  background-size: 100% 100%;
+  vertical-align: text-top;
+  margin-right: 0.26667rem;
+}
+
+.courses .content ul li .detail .nice .nice-item span {
+  font-size: 0.32rem;
+  line-height: 0.32rem;
+  color: #666666;
+}
+
+.courses .content ul li .detail .nice .nice-item:nth-of-type(2) .icon {
+  width: 0.29333rem;
+  background: url("../images/icon_6.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.courses .content ul li .detail .nice .nice-item:nth-of-type(3) .icon {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url("../images/icon_7.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.courses .content ul li .detail .price {
+  font-size: 0.32rem;
+  color: #666666;
+  text-align: center;
+}
+
+.courses .content ul li .detail .price span {
+  font-size: 0.48rem;
+  color: #f05630;
+  font-weight: bold;
+}
+
+.courses .content ul li .detail .btn {
+  width: 3.57333rem;
+  height: 0.69333rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f08a30), to(#f05630)), -webkit-gradient(linear, left top, left bottom, from(#f05630), to(#f05630));
+  background-image: linear-gradient(90deg, #f08a30 0%, #f05630 100%), linear-gradient(#f05630, #f05630);
+  -webkit-box-shadow: 0 3px 5px 0 rgba(240, 116, 48, 0.5);
+          box-shadow: 0 3px 5px 0 rgba(240, 116, 48, 0.5);
+  border-radius: 0.34667rem;
+  text-align: center;
+  line-height: 0.69333rem;
+  color: #ffffff;
+  font-size: 0.34667rem;
+  margin-top: 0.16rem;
+}
+
+.courses .content ul li:nth-of-type(even) {
+  background-image: linear-gradient(135deg, #00e3f7 0%, #1991ee 100%), linear-gradient(#47a3ef, #47a3ef);
+}
+
+.courses .content ul li:nth-of-type(even) .detail .merit .merit-item .icon {
+  background: url("../images/icon_8.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.courses .content ul li:nth-of-type(even) .detail .nice .nice-item .icon {
+  background: url("../images/icon_9.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.courses .content ul li:nth-of-type(even) .detail .nice .nice-item:nth-of-type(2) .icon {
+  background: url("../images/icon_10.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.courses .content ul li:nth-of-type(even) .detail .nice .nice-item:nth-of-type(3) .icon {
+  background: url("../images/icon_11.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.jigouw {
+  border-bottom: 1px solid #ddd;
+}
+
+.jigouw h2 {
+  line-height: 1.09333rem;
+  color: #333;
+  font-size: 0.34667rem;
+  padding: 0 0.37333rem;
+  font-weight: bold;
+}
+
+.jigouw p {
+  padding: 0 0.37333rem;
+  color: #999;
+  font-size: 0.34667rem;
+  line-height: 1.5;
+}
+
+.jigouw a.in2 {
+  display: block;
+  text-align: right;
+  color: #F05630;
+  font-size: 0.29333rem;
+  line-height: 0.4rem;
+  margin-bottom: 0.26667rem;
+  margin-top: 0.13333rem;
+}
+
+.logotitle {
+  width: 100%;
+}
+
+.logotitle h3 {
+  padding-left: 0.8rem;
+  color: #333;
+  font-size: 0.34667rem;
+  font-weight: normal;
+}
+
+.logotitle.school h3 {
+  background: url("https://img.thea.cn/wx/wkwap/images/school.png") no-repeat 0.4rem 0.46667rem;
+  background-size: 0.29333rem 0.29333rem;
+  height: 1.06667rem;
+  line-height: 1.26667rem;
+}
+
+.quesct {
+  margin-top: 0.58667rem;
+  padding: 0 0.4rem;
+}
+
+.quesct .questop {
+  border-bottom: 1px solid #DDDDDD;
+  height: 0.66667rem;
+}
+
+.quesct .questop span {
+  display: inline-block;
+  padding: 0 0.06667rem;
+  float: left;
+  margin-right: 1.26667rem;
+  font-size: 0.34667rem;
+  color: #333;
+  line-height: 0.66667rem;
+  cursor: pointer;
+  height: 0.65333rem;
+}
+
+.quesct .questop span.cur {
+  color: #F05630;
+  border-bottom: 2px solid #F05630;
+}
+
+.quesct .questop span.mr0 {
+  margin-right: 0;
+}
+
+.quesct .qlist {
+  display: none;
+  margin-top: 0.36rem;
+  margin-bottom: 0.26667rem;
+}
+
+.quesct .qlist.qlistshow {
+  display: block;
+}
+
+.quesct .qlist li {
+  height: 0.66667rem;
+  position: relative;
+  padding-left: 0.48rem;
+}
+
+.quesct .qlist li a {
+  width: 7.33333rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  float: left;
+  font-size: 0.32rem;
+  color: #333;
+  line-height: 0.66667rem;
+}
+
+.quesct .qlist li span {
+  width: 1.14667rem;
+  display: block;
+  float: right;
+  font-size: 0.32rem;
+  color: #999;
+  line-height: 0.66667rem;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.quesct .qlist li:after {
+  content: '';
+  width: 0.05333rem;
+  height: 0.05333rem;
+  position: absolute;
+  left: 0.24rem;
+  top: 0.30667rem;
+  background: #999;
+}
+
+.footer {
+  width: 100%;
+  height: 1.06667rem;
+  text-align: center;
+  line-height: 1.06667rem;
+  background: #eaebed;
+  font-size: 0.32rem;
+  color: #666;
+}
+
+.footfixed {
+  height: 1.30667rem;
+  position: fixed;
+  width: 10rem;
+  bottom: 0;
+  z-index: 23333;
+  border-top: 1px solid #ddd;
+  background: url("https://img.thea.cn/public/platform/thea/201901/tx/china-wk-wap/images/footer-btn-bg.png") no-repeat;
+  background-size: 10rem 1.36rem;
+  margin: 0 auto;
+}
+
+.footfixed .l {
+  width: 2.66667rem;
+  float: left;
+  height: 100%;
+  line-height: 1.30667rem;
+  font-size: 0.32rem;
+  color: #666;
+  text-indent: 1.06667rem;
+  background: white;
+  position: relative;
+  background-image: url("https://img.thea.cn/wx/wkwap/images/we.png");
+  background-repeat: no-repeat;
+  background-size: 0.42667rem 0.34667rem;
+  background-position: 0.46667rem 0.45333rem;
+}
+
+.footfixed .m {
+  position: relative;
+  background-image: url("https://img.thea.cn/wx/wkwap/images/alert.png");
+  background-size: 0.32rem 0.37333rem;
+  text-indent: 0.98667rem;
+  width: 2.66667rem;
+  float: left;
+  height: 100%;
+  line-height: 1.30667rem;
+  font-size: 0.32rem;
+  color: #666;
+  background: white;
+  background-repeat: no-repeat;
+  background-position: 0.46667rem 0.45333rem;
+}
+
+.footfixed .m:after {
+  width: 1px;
+  height: 0.53333rem;
+  background: #ddd;
+  position: absolute;
+  left: 0.06667rem;
+  top: 0.38667rem;
+  content: '';
+}
+
+.footfixed .r {
+  width: 4.66667rem;
+  float: left;
+  height: 100%;
+  line-height: 1.30667rem;
+  font-size: 0.32rem;
+  color: white;
+  text-indent: 2rem;
+  background: #ffae00;
+  background-image: url("https://img.thea.cn/wx/wkwap/images/wh.png");
+  background-repeat: no-repeat;
+  background-size: 0.33333rem 0.33333rem;
+  background-position: 1.48rem 0.48rem;
+  position: relative;
+}
+
+@media only screen and (max-width: 375px) {
+  .over375 {
+    display: none;
+  }
+}
