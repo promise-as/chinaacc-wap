@@ -9,10 +9,6 @@
   padding-bottom: 1.30667rem;
 }
 
-a:hover {
-  color: #f05630;
-}
-
 input[type="text"],
 select {
   appearance: none;
@@ -189,7 +185,8 @@ input[type="submit"] {
 
 .quesw .quest h1 {
   max-width: 7.33333rem;
-  font-size: 0.61333rem;
+  font-size: 0.53333rem;
+  line-height: 0.64rem;
   color: #444444;
   font-weight: bold;
 }
@@ -199,7 +196,7 @@ input[type="submit"] {
   font-size: 0.24rem;
   color: #999;
   line-height: 0.53333rem;
-  width: 3.06667rem;
+  width: 3.2rem;
   text-align: right;
   overflow: hidden;
 }
@@ -256,7 +253,7 @@ input[type="submit"] {
   width: 100%;
   color: #444444;
   font-size: 0.37333rem;
-  line-height: 0.37333rem;
+  line-height: 0.45333rem;
   margin-bottom: 0.37333rem;
 }
 
@@ -311,12 +308,13 @@ input[type="submit"] {
   height: 0.32rem;
   background: url("../images/icon_3.png") no-repeat;
   background-size: 100% 100%;
+  vertical-align: text-top;
 }
 
 .courses .title span {
   color: #333333;
   font-size: 0.34667rem;
-  line-height: 0.34667rem;
+  line-height: 0.37333rem;
 }
 
 .courses .content {
@@ -332,7 +330,6 @@ input[type="submit"] {
 
 .courses .content ul li {
   width: 4.37333rem;
-  height: 6.90667rem;
   background-image: linear-gradient(135deg, #ff9334 0%, #f05630 100%), linear-gradient(#f05630, #f05630);
   border-radius: 0.08rem;
   padding: 0.26667rem 0.13333rem 0.13333rem;
@@ -342,16 +339,17 @@ input[type="submit"] {
 
 .courses .content ul li .item-title {
   font-size: 0.45333rem;
-  line-height: 0.45333rem;
+  line-height: 0.56rem;
   color: #ffffff;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 0.26667rem;
+  background: url("../images/icon_12.png") no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 0.13333rem;
 }
 
 .courses .content ul li .detail {
   width: 4.10667rem;
-  height: 5.78667rem;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 0.24rem 0px rgba(196, 68, 36, 0.48);
           box-shadow: 0px 0px 0.24rem 0px rgba(196, 68, 36, 0.48);
@@ -411,7 +409,8 @@ input[type="submit"] {
 
 .courses .content ul li .detail .nice .nice-item span {
   font-size: 0.32rem;
-  line-height: 0.32rem;
+  line-height: 0.36rem;
+  vertical-align: text-top;
   color: #666666;
 }
 
@@ -506,6 +505,7 @@ input[type="submit"] {
   line-height: 0.4rem;
   margin-bottom: 0.26667rem;
   margin-top: 0.13333rem;
+  padding-right: 0.4rem;
 }
 
 .logotitle {
