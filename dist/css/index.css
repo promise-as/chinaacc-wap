@@ -223,9 +223,20 @@ input[type="submit"] {
   font-size: 0.32rem;
 }
 
+.quesw.hf {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 20;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /* 注册体验 */
-.experience {
-  padding: 0.26667rem 0.4rem 0;
+.experience ul {
+  margin-bottom: 0.4rem;
 }
 
 .experience ul li {
@@ -235,9 +246,9 @@ input[type="submit"] {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 0.4rem;
-  margin-bottom: 0.4rem;
-  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
 }
 
 .experience ul li a.col {
@@ -265,7 +276,7 @@ input[type="submit"] {
   display: block;
   width: 0.24rem;
   height: 0.29333rem;
-  background: url("../images/icon_1.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_1.png") no-repeat;
   background-size: 100% 100%;
   margin-right: 0.26667rem;
   float: left;
@@ -295,18 +306,13 @@ input[type="submit"] {
 
 .experience ul li:last-child {
   margin-bottom: 0;
-  border-bottom: none;
 }
 
 /* 热门课程 */
-.courses {
-  padding: 0 0.4rem 0.4rem;
-}
-
 .courses .title .icon {
   width: 0.29333rem;
   height: 0.32rem;
-  background: url("../images/icon_3.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_3.png") no-repeat;
   background-size: 100% 100%;
   vertical-align: text-top;
 }
@@ -343,7 +349,7 @@ input[type="submit"] {
   color: #ffffff;
   text-align: center;
   font-weight: bold;
-  background: url("../images/icon_12.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_12.png") no-repeat;
   background-size: 100% 100%;
   margin-bottom: 0.13333rem;
 }
@@ -370,7 +376,7 @@ input[type="submit"] {
   float: left;
   width: 0.21333rem;
   height: 0.26667rem;
-  background: url("../images/icon_4.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_4.png") no-repeat;
   background-size: 100% 100%;
   margin-right: 0.13333rem;
 }
@@ -401,7 +407,7 @@ input[type="submit"] {
 .courses .content ul li .detail .nice .nice-item .icon {
   width: 0.32rem;
   height: 0.36rem;
-  background: url("../images/icon_5.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_5.png") no-repeat;
   background-size: 100% 100%;
   vertical-align: text-top;
   margin-right: 0.26667rem;
@@ -416,14 +422,14 @@ input[type="submit"] {
 
 .courses .content ul li .detail .nice .nice-item:nth-of-type(2) .icon {
   width: 0.29333rem;
-  background: url("../images/icon_6.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_6.png") no-repeat;
   background-size: 100% 100%;
 }
 
 .courses .content ul li .detail .nice .nice-item:nth-of-type(3) .icon {
   width: 0.32rem;
   height: 0.32rem;
-  background: url("../images/icon_7.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_7.png") no-repeat;
   background-size: 100% 100%;
 }
 
@@ -459,22 +465,22 @@ input[type="submit"] {
 }
 
 .courses .content ul li:nth-of-type(even) .detail .merit .merit-item .icon {
-  background: url("../images/icon_8.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_8.png") no-repeat;
   background-size: 100% 100%;
 }
 
 .courses .content ul li:nth-of-type(even) .detail .nice .nice-item .icon {
-  background: url("../images/icon_9.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_9.png") no-repeat;
   background-size: 100% 100%;
 }
 
 .courses .content ul li:nth-of-type(even) .detail .nice .nice-item:nth-of-type(2) .icon {
-  background: url("../images/icon_10.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_10.png") no-repeat;
   background-size: 100% 100%;
 }
 
 .courses .content ul li:nth-of-type(even) .detail .nice .nice-item:nth-of-type(3) .icon {
-  background: url("../images/icon_11.png") no-repeat;
+  background: url("https://img.thea.cn/public/platform/thea/201907/hbj/chinnaacc-wap/images/icon_11.png") no-repeat;
   background-size: 100% 100%;
 }
 
